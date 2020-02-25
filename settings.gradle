@@ -1,0 +1,3 @@
+rootProject.name='Feedback Dialog Sample'
+include ':app'
+include ':feedbackdialog'

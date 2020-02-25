@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_bad">This app sucks</string>
+    <string name="rate_neutral">I had some problems</string>
+    <string name="rate_good">It works ok</string>
+    <string name="rate_very_good">Love it</string>
+    <string name="feedback_question">Overall, how would you rate our app?</string>
+    <string name="feedback_hint">Please tell us some details so that we can improve our service</string>
+    <string name="submit_feedback">Submit Feedback</string>
+</resources>

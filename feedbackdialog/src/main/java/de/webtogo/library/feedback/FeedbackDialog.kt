@@ -72,6 +72,7 @@ class FeedbackDialog private constructor(val builder: Builder) {
         submit.setOnClickListener {
             (recycler.adapter as SmileAdapter).getSelected()?.let { item ->
                 builder.listener?.feedbackSubmitted(item.rate, comment.text.toString())
+                dialog.dismiss()
             }
         }
 

@@ -28,10 +28,10 @@ class FeedbackDialog private constructor(val builder: Builder) {
         }
 
         val smileList = listOf(
-            SmileModel(R.string.rate_bad, R.drawable.ic_smile_problem, Rate.BAD),
-            SmileModel(R.string.rate_neutral, R.drawable.ic_smile_neutral, Rate.NEUTRAL),
-            SmileModel(R.string.rate_good, R.drawable.ic_smile_ok, Rate.GOOD),
-            SmileModel(R.string.rate_very_good, R.drawable.ic_smile_perfect, Rate.VERY_GOOD)
+            SmileModel(R.string.feedback_rate_bad, R.drawable.ic_smile_problem, Rate.BAD),
+            SmileModel(R.string.feedback_rate_problem, R.drawable.ic_smile_neutral, Rate.NEUTRAL),
+            SmileModel(R.string.feedback_rate_ok, R.drawable.ic_smile_ok, Rate.GOOD),
+            SmileModel(R.string.feedback_rate_love, R.drawable.ic_smile_perfect, Rate.VERY_GOOD)
         )
 
         val submit = view.findViewById<Button>(R.id.submit)
